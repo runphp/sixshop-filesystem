@@ -4,8 +4,8 @@ declare(strict_types=1);
 namespace SixShop\Filesystem\Controller;
 
 use SixShop\Core\Helper;
-use SixShop\Core\Middleware\MacroPageMiddleware;
 use SixShop\Filesystem\Entity\FilesystemFileEntity;
+use SixShop\System\Middleware\MacroPageMiddleware;
 use think\facade\Event;
 use think\Request;
 use think\Response;
